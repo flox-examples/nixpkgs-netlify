@@ -2471,7 +2471,7 @@
             "out"
           ],
           "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/chj79hz14v92rmdhpgw8pr21gw50pkwk-source/pkgs/development/web/nodejs/v18.nix:12",
+          "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/web/nodejs/v18.nix:12",
           "unfree": false
         }
       },
@@ -2485,12 +2485,12 @@
         "storePaths": [
           "/nix/store/18qz08bll4dcg6845yj1fb0vfhjxqg5a-nodejs-18.14.2"
         ],
-        "url": "github:flox/nixpkgs/5f9d1bb572e08ec432ae46c78581919d837a90f6"
+        "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
       },
       "source": {
         "locked": {
-          "revCount": 467721,
-          "lastModified": 1679797994
+          "revCount": 466020,
+          "lastModified": 1679262748
         }
       }
     },
