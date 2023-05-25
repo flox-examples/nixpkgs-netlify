@@ -14,27 +14,27 @@
 
   # Catalogs
   inputs = {
-    #"nixpkgs__flox__aarch64-darwin" = {
+    #"nixpkgs__netlify__aarch64-darwin" = {
     #  url = "github:flox-examples/nixpkgs-netlify/aarch64-darwin";
     #  flake = false;
     #};
 
-    "nixpkgs__flox__aarch64-linux" = {
+    "nixpkgs__netlify__aarch64-linux" = {
       url = "github:flox-examples/nixpkgs-netlify/aarch64-linux";
       flake = false;
     };
 
-    #"nixpkgs__flox__i686-linux" = {
+    #"nixpkgs__netlify__i686-linux" = {
     #  url = "github:flox-examples/nixpkgs-netlify/i686-linux";
     #  flake = false;
     #};
 
-    "nixpkgs__flox__x86_64-linux" = {
+    "nixpkgs__netlify__x86_64-linux" = {
       url = "github:flox-examples/nixpkgs-netlify/x86_64-linux";
       flake = false;
     };
 
-    #"nixpkgs__flox__x86_64-darwin" = {
+    #"nixpkgs__netlify__x86_64-darwin" = {
     #  url = "github:flox-examples/nixpkgs-netlify/x86_64-darwin";
     #  flake = false;
     #};
@@ -76,10 +76,10 @@
                   path = [];
                   # Baked in assumption that __<system> only contains that system
                   # TODO: support longer prefixes
-                  includePath = [(lib.strings.removePrefix "nixpkgs__flox__" name)];
+                  includePath = [(lib.strings.removePrefix "nixpkgs__netlify__" name)];
                 }
             )
-              (lib.filterAttrs (name: _: lib.hasPrefix "nixpkgs__flox__" name) inputs)));
+              (lib.filterAttrs (name: _: lib.hasPrefix "nixpkgs__netlify__" name) inputs)));
       };
 
       passthru = {
