@@ -302,6 +302,156 @@
         }
       }
     },
+    "1.11.4": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/jrvdb7fldz9prb523ijcmsaz8qjck5df-elixir-1.11.4",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.11.4",
+        "pname": null,
+        "name": "elixir-1.11.4",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/jrvdb7fldz9prb523ijcmsaz8qjck5df-elixir-1.11.4"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "A functional, meta-programming aware language built on top of the Erlang VM",
+          "position": "/nix/store/mz372xs1z8r6b3337zs0qxkg0ffrbnn3-source/pkgs/development/interpreters/elixir/1.11.nix:7",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "elixir"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/jrvdb7fldz9prb523ijcmsaz8qjck5df-elixir-1.11.4"
+        ],
+        "url": "github:flox/nixpkgs/f5e8bdd07d1afaabf6b37afc5497b1e498b8046f"
+      },
+      "source": {
+        "locked": {
+          "revCount": 277486,
+          "lastModified": 1616174264
+        }
+      }
+    },
+    "1.11.3": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/s2l9yr5ksn9ahbv2d80gvs9z3kvdzdn4-elixir-1.11.3",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.11.3",
+        "pname": null,
+        "name": "elixir-1.11.3",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/s2l9yr5ksn9ahbv2d80gvs9z3kvdzdn4-elixir-1.11.3"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "A functional, meta-programming aware language built on top of the Erlang VM",
+          "position": "/nix/store/4r0l387miz5xgp992h64qa92i7rqb1y4-source/pkgs/development/interpreters/elixir/1.11.nix:7",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "elixir"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/s2l9yr5ksn9ahbv2d80gvs9z3kvdzdn4-elixir-1.11.3"
+        ],
+        "url": "github:flox/nixpkgs/d92396039df6cf4c609cf1be47d0802496560e17"
+      },
+      "source": {
+        "locked": {
+          "revCount": 270083,
+          "lastModified": 1613369191
+        }
+      }
+    },
+    "1.11.2": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/hvn2zn3g6qprfnf8q3nrfafckqbkxxv0-elixir-1.11.2",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.11.2",
+        "pname": null,
+        "name": "elixir-1.11.2",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/hvn2zn3g6qprfnf8q3nrfafckqbkxxv0-elixir-1.11.2"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "A functional, meta-programming aware language built on top of the Erlang VM",
+          "position": "/nix/store/02bj12ja21vibib3c1k065568x1d17ds-source/pkgs/development/interpreters/elixir/1.11.nix:7",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "elixir"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/hvn2zn3g6qprfnf8q3nrfafckqbkxxv0-elixir-1.11.2"
+        ],
+        "url": "github:flox/nixpkgs/257cbbcd3ab7bd96f5d24d50adc807de7c82e06d"
+      },
+      "source": {
+        "locked": {
+          "revCount": 262347,
+          "lastModified": 1610219734
+        }
+      }
+    },
     "1.13.4": {
       "type": "catalogRender",
       "version": 1,
@@ -753,6 +903,156 @@
           "lastModified": 1627128856
         }
       }
+    },
+    "23.2.6": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/xd4wbswbvs4svml71nqs5af1bvk8nndp-erlang-23.2.6",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "23.2.6",
+        "pname": null,
+        "name": "erlang-23.2.6",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/xd4wbswbvs4svml71nqs5af1bvk8nndp-erlang-23.2.6"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Programming language used for massively scalable soft real-time systems",
+          "position": "/nix/store/mz372xs1z8r6b3337zs0qxkg0ffrbnn3-source/pkgs/development/interpreters/erlang/generic-builder.nix:109",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "erlang"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/xd4wbswbvs4svml71nqs5af1bvk8nndp-erlang-23.2.6"
+        ],
+        "url": "github:flox/nixpkgs/f5e8bdd07d1afaabf6b37afc5497b1e498b8046f"
+      },
+      "source": {
+        "locked": {
+          "revCount": 277486,
+          "lastModified": 1616174264
+        }
+      }
+    },
+    "23.1.4": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/01d6gv9rc4h9vqsnsi1kx91m3l40nr96-erlang-23.1.4",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "23.1.4",
+        "pname": null,
+        "name": "erlang-23.1.4",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/01d6gv9rc4h9vqsnsi1kx91m3l40nr96-erlang-23.1.4"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Programming language used for massively scalable soft real-time systems",
+          "position": "/nix/store/4r0l387miz5xgp992h64qa92i7rqb1y4-source/pkgs/development/interpreters/erlang/generic-builder.nix:115",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "erlang"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/01d6gv9rc4h9vqsnsi1kx91m3l40nr96-erlang-23.1.4"
+        ],
+        "url": "github:flox/nixpkgs/d92396039df6cf4c609cf1be47d0802496560e17"
+      },
+      "source": {
+        "locked": {
+          "revCount": 270083,
+          "lastModified": 1613369191
+        }
+      }
+    },
+    "22.3": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/kx2b4pzxwqpmzyrnd6zsy9kcbnphhb6r-erlang-22.3",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "22.3",
+        "pname": null,
+        "name": "erlang-22.3",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/kx2b4pzxwqpmzyrnd6zsy9kcbnphhb6r-erlang-22.3"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Programming language used for massively scalable soft real-time systems",
+          "position": "/nix/store/02bj12ja21vibib3c1k065568x1d17ds-source/pkgs/development/interpreters/erlang/generic-builder.nix:117",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "erlang"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/kx2b4pzxwqpmzyrnd6zsy9kcbnphhb6r-erlang-22.3"
+        ],
+        "url": "github:flox/nixpkgs/257cbbcd3ab7bd96f5d24d50adc807de7c82e06d"
+      },
+      "source": {
+        "locked": {
+          "revCount": 262347,
+          "lastModified": 1610219734
+        }
+      }
     }
   },
   "gcc": {
@@ -1106,6 +1406,61 @@
         "locked": {
           "revCount": 348581,
           "lastModified": 1643080866
+        }
+      }
+    },
+    "8.10.3": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/5hiq1vcjyxcr65l9fpdvpyf730y1nnwg-ghc-8.10.3-doc",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/xp3r3azppf9d4fhng47n7lbqv9g8bd9x-ghc-8.10.3",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "8.10.3",
+        "pname": null,
+        "name": "ghc-8.10.3",
+        "system": "aarch64-linux",
+        "outputs": {
+          "doc": "/nix/store/5hiq1vcjyxcr65l9fpdvpyf730y1nnwg-ghc-8.10.3-doc",
+          "out": "/nix/store/xp3r3azppf9d4fhng47n7lbqv9g8bd9x-ghc-8.10.3"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "The Glasgow Haskell Compiler",
+          "position": "/nix/store/02bj12ja21vibib3c1k065568x1d17ds-source/pkgs/development/compilers/ghc/8.10.3.nix:246",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "ghc"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/xp3r3azppf9d4fhng47n7lbqv9g8bd9x-ghc-8.10.3"
+        ],
+        "url": "github:flox/nixpkgs/257cbbcd3ab7bd96f5d24d50adc807de7c82e06d"
+      },
+      "source": {
+        "locked": {
+          "revCount": 262347,
+          "lastModified": 1610219734
         }
       }
     },
@@ -1876,6 +2231,156 @@
         }
       }
     },
+    "1.16.2": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/27d9y0wxhd6yqzbiqgvaf5p4k4azncim-go-1.16.2",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.16.2",
+        "pname": "go",
+        "name": "go-1.16.2",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/27d9y0wxhd6yqzbiqgvaf5p4k4azncim-go-1.16.2"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "The Go Programming language",
+          "position": "/nix/store/mz372xs1z8r6b3337zs0qxkg0ffrbnn3-source/pkgs/development/compilers/go/1.16.nix:262",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "go"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/27d9y0wxhd6yqzbiqgvaf5p4k4azncim-go-1.16.2"
+        ],
+        "url": "github:flox/nixpkgs/f5e8bdd07d1afaabf6b37afc5497b1e498b8046f"
+      },
+      "source": {
+        "locked": {
+          "revCount": 277486,
+          "lastModified": 1616174264
+        }
+      }
+    },
+    "1.15.8": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/0r38l7gc4gv3sbvh51pksh873qk6031x-go-1.15.8",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.15.8",
+        "pname": "go",
+        "name": "go-1.15.8",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/0r38l7gc4gv3sbvh51pksh873qk6031x-go-1.15.8"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "The Go Programming language",
+          "position": "/nix/store/4r0l387miz5xgp992h64qa92i7rqb1y4-source/pkgs/development/compilers/go/1.15.nix:255",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "go"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/0r38l7gc4gv3sbvh51pksh873qk6031x-go-1.15.8"
+        ],
+        "url": "github:flox/nixpkgs/d92396039df6cf4c609cf1be47d0802496560e17"
+      },
+      "source": {
+        "locked": {
+          "revCount": 270083,
+          "lastModified": 1613369191
+        }
+      }
+    },
+    "1.15.6": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/7sc02m5ayi3cwnsjfc1m823jhfczwr8k-go-1.15.6",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.15.6",
+        "pname": "go",
+        "name": "go-1.15.6",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/7sc02m5ayi3cwnsjfc1m823jhfczwr8k-go-1.15.6"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "The Go Programming language",
+          "position": "/nix/store/02bj12ja21vibib3c1k065568x1d17ds-source/pkgs/development/compilers/go/1.15.nix:255",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "go"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/7sc02m5ayi3cwnsjfc1m823jhfczwr8k-go-1.15.6"
+        ],
+        "url": "github:flox/nixpkgs/257cbbcd3ab7bd96f5d24d50adc807de7c82e06d"
+      },
+      "source": {
+        "locked": {
+          "revCount": 262347,
+          "lastModified": 1610219734
+        }
+      }
+    },
     "1.19.4": {
       "type": "catalogRender",
       "version": 1,
@@ -2145,6 +2650,61 @@
         "locked": {
           "revCount": 394203,
           "lastModified": 1658826464
+        }
+      }
+    },
+    "15.0.1-ga": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/i9b1llvaij3zv9ldxcgx0bc99qfrh7gk-openjdk-15.0.1-ga-debug",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/yx6w811nvg498vda88xvb6cxxsp75789-openjdk-15.0.1-ga",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "15.0.1-ga",
+        "pname": "openjdk",
+        "name": "openjdk-15.0.1-ga",
+        "system": "aarch64-linux",
+        "outputs": {
+          "debug": "/nix/store/i9b1llvaij3zv9ldxcgx0bc99qfrh7gk-openjdk-15.0.1-ga-debug",
+          "out": "/nix/store/yx6w811nvg498vda88xvb6cxxsp75789-openjdk-15.0.1-ga"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "The open-source Java Development Kit",
+          "position": "/nix/store/mz372xs1z8r6b3337zs0qxkg0ffrbnn3-source/pkgs/development/compilers/openjdk/default.nix:147",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "jdk"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/yx6w811nvg498vda88xvb6cxxsp75789-openjdk-15.0.1-ga"
+        ],
+        "url": "github:flox/nixpkgs/f5e8bdd07d1afaabf6b37afc5497b1e498b8046f"
+      },
+      "source": {
+        "locked": {
+          "revCount": 277486,
+          "lastModified": 1616174264
         }
       }
     },
@@ -3244,6 +3804,156 @@
         }
       }
     },
+    "14.16.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/9sz708pbbl1b5mcx34abgmxpva11mfsa-nodejs-14.16.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "14.16.0",
+        "pname": null,
+        "name": "nodejs-14.16.0",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/9sz708pbbl1b5mcx34abgmxpva11mfsa-nodejs-14.16.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/mz372xs1z8r6b3337zs0qxkg0ffrbnn3-source/pkgs/development/web/nodejs/v14.nix:11",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "nodejs"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/9sz708pbbl1b5mcx34abgmxpva11mfsa-nodejs-14.16.0"
+        ],
+        "url": "github:flox/nixpkgs/f5e8bdd07d1afaabf6b37afc5497b1e498b8046f"
+      },
+      "source": {
+        "locked": {
+          "revCount": 277486,
+          "lastModified": 1616174264
+        }
+      }
+    },
+    "14.15.5": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/3hhkjc1pc7xhnw9z7m71xgjynjchw3ks-nodejs-14.15.5",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "14.15.5",
+        "pname": null,
+        "name": "nodejs-14.15.5",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/3hhkjc1pc7xhnw9z7m71xgjynjchw3ks-nodejs-14.15.5"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/4r0l387miz5xgp992h64qa92i7rqb1y4-source/pkgs/development/web/nodejs/v14.nix:11",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "nodejs"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/3hhkjc1pc7xhnw9z7m71xgjynjchw3ks-nodejs-14.15.5"
+        ],
+        "url": "github:flox/nixpkgs/d92396039df6cf4c609cf1be47d0802496560e17"
+      },
+      "source": {
+        "locked": {
+          "revCount": 270083,
+          "lastModified": 1613369191
+        }
+      }
+    },
+    "14.15.4": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/4cm13rl39d31wkxrph60g48fzj35cifd-nodejs-14.15.4",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "14.15.4",
+        "pname": null,
+        "name": "nodejs-14.15.4",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/4cm13rl39d31wkxrph60g48fzj35cifd-nodejs-14.15.4"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/02bj12ja21vibib3c1k065568x1d17ds-source/pkgs/development/web/nodejs/v14.nix:11",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "nodejs"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/4cm13rl39d31wkxrph60g48fzj35cifd-nodejs-14.15.4"
+        ],
+        "url": "github:flox/nixpkgs/257cbbcd3ab7bd96f5d24d50adc807de7c82e06d"
+      },
+      "source": {
+        "locked": {
+          "revCount": 262347,
+          "lastModified": 1610219734
+        }
+      }
+    },
     "18.12.1": {
       "type": "catalogRender",
       "version": 1,
@@ -3422,6 +4132,68 @@
         "locked": {
           "revCount": 368870,
           "lastModified": 1649778548
+        }
+      }
+    },
+    "5.32.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/ximmardf69fzrd8483hcr0hnbf1x8f3d-perl-5.32.0-devdoc",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/77z3s33biw5lhy74z9f7n1jbabksnx8r-perl-5.32.0-man",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/bwg4c8y5vvai3sqyrcw0pndh4g39343l-perl-5.32.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "5.32.0",
+        "pname": null,
+        "name": "perl-5.32.0",
+        "system": "aarch64-linux",
+        "outputs": {
+          "devdoc": "/nix/store/ximmardf69fzrd8483hcr0hnbf1x8f3d-perl-5.32.0-devdoc",
+          "man": "/nix/store/77z3s33biw5lhy74z9f7n1jbabksnx8r-perl-5.32.0-man",
+          "out": "/nix/store/bwg4c8y5vvai3sqyrcw0pndh4g39343l-perl-5.32.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out",
+            "man"
+          ],
+          "description": "The standard implementation of the Perl 5 programmming language",
+          "position": "/nix/store/4r0l387miz5xgp992h64qa92i7rqb1y4-source/pkgs/development/interpreters/perl/default.nix:164",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "perl"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/bwg4c8y5vvai3sqyrcw0pndh4g39343l-perl-5.32.0",
+          "/nix/store/77z3s33biw5lhy74z9f7n1jbabksnx8r-perl-5.32.0-man"
+        ],
+        "url": "github:flox/nixpkgs/d92396039df6cf4c609cf1be47d0802496560e17"
+      },
+      "source": {
+        "locked": {
+          "revCount": 270083,
+          "lastModified": 1613369191
         }
       }
     },
@@ -4400,6 +5172,156 @@
         }
       }
     },
+    "3.8.8": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/qc8pkj3ypmgs1izgq70z7p9vbzanxxbc-python3-3.8.8",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "3.8.8",
+        "pname": "python3",
+        "name": "python3-3.8.8",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/qc8pkj3ypmgs1izgq70z7p9vbzanxxbc-python3-3.8.8"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "A high-level dynamically-typed programming language",
+          "position": "/nix/store/mz372xs1z8r6b3337zs0qxkg0ffrbnn3-source/pkgs/development/interpreters/python/cpython/default.nix:406",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "python3"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/qc8pkj3ypmgs1izgq70z7p9vbzanxxbc-python3-3.8.8"
+        ],
+        "url": "github:flox/nixpkgs/f5e8bdd07d1afaabf6b37afc5497b1e498b8046f"
+      },
+      "source": {
+        "locked": {
+          "revCount": 277486,
+          "lastModified": 1616174264
+        }
+      }
+    },
+    "3.8.7": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/akrgx3370c6bl8akpd3j75hzqclicdl4-python3-3.8.7",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "3.8.7",
+        "pname": "python3",
+        "name": "python3-3.8.7",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/akrgx3370c6bl8akpd3j75hzqclicdl4-python3-3.8.7"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "A high-level dynamically-typed programming language",
+          "position": "/nix/store/4r0l387miz5xgp992h64qa92i7rqb1y4-source/pkgs/development/interpreters/python/cpython/default.nix:401",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "python3"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/akrgx3370c6bl8akpd3j75hzqclicdl4-python3-3.8.7"
+        ],
+        "url": "github:flox/nixpkgs/d92396039df6cf4c609cf1be47d0802496560e17"
+      },
+      "source": {
+        "locked": {
+          "revCount": 270083,
+          "lastModified": 1613369191
+        }
+      }
+    },
+    "3.8.6": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/zl74sfapg6mikm2xiv1gmgjnp6aba44c-python3-3.8.6",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "3.8.6",
+        "pname": "python3",
+        "name": "python3-3.8.6",
+        "system": "aarch64-linux",
+        "outputs": {
+          "out": "/nix/store/zl74sfapg6mikm2xiv1gmgjnp6aba44c-python3-3.8.6"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "A high-level dynamically-typed programming language",
+          "position": "/nix/store/02bj12ja21vibib3c1k065568x1d17ds-source/pkgs/development/interpreters/python/cpython/default.nix:332",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "python3"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/zl74sfapg6mikm2xiv1gmgjnp6aba44c-python3-3.8.6"
+        ],
+        "url": "github:flox/nixpkgs/257cbbcd3ab7bd96f5d24d50adc807de7c82e06d"
+      },
+      "source": {
+        "locked": {
+          "revCount": 262347,
+          "lastModified": 1610219734
+        }
+      }
+    },
     "3.10.9": {
       "type": "catalogRender",
       "version": 1,
@@ -4674,6 +5596,61 @@
         "locked": {
           "revCount": 295280,
           "lastModified": 1623580589
+        }
+      }
+    },
+    "2.6.6": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/lniwgl6rf9qkpmg97cg368cp7ghb14q6-ruby-2.6.6-devdoc",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/406yrccwp7hql216yrng4267c2crdkz8-ruby-2.6.6",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "2.6.6",
+        "pname": "ruby",
+        "name": "ruby-2.6.6",
+        "system": "aarch64-linux",
+        "outputs": {
+          "devdoc": "/nix/store/lniwgl6rf9qkpmg97cg368cp7ghb14q6-ruby-2.6.6-devdoc",
+          "out": "/nix/store/406yrccwp7hql216yrng4267c2crdkz8-ruby-2.6.6"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "The Ruby language",
+          "position": "/nix/store/mz372xs1z8r6b3337zs0qxkg0ffrbnn3-source/pkgs/development/interpreters/ruby/default.nix:217",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "ruby"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/406yrccwp7hql216yrng4267c2crdkz8-ruby-2.6.6"
+        ],
+        "url": "github:flox/nixpkgs/f5e8bdd07d1afaabf6b37afc5497b1e498b8046f"
+      },
+      "source": {
+        "locked": {
+          "revCount": 277486,
+          "lastModified": 1616174264
         }
       }
     },
@@ -5599,6 +6576,192 @@
         "locked": {
           "revCount": 295280,
           "lastModified": 1623580589
+        }
+      }
+    },
+    "1.50.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/xapm375gxqd8xvm43s4zcyc4q3a4agwk-rustc-1.50.0-doc",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/y548rw1467n8f3w0xq2py8al18av0mg1-rustc-1.50.0-man",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/cagqz9xkbwj4ywjsy0g01whgsq45csvi-rustc-1.50.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.50.0",
+        "pname": "rustc",
+        "name": "rustc-1.50.0",
+        "system": "aarch64-linux",
+        "outputs": {
+          "doc": "/nix/store/xapm375gxqd8xvm43s4zcyc4q3a4agwk-rustc-1.50.0-doc",
+          "man": "/nix/store/y548rw1467n8f3w0xq2py8al18av0mg1-rustc-1.50.0-man",
+          "out": "/nix/store/cagqz9xkbwj4ywjsy0g01whgsq45csvi-rustc-1.50.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out",
+            "man"
+          ],
+          "description": "A safe, concurrent, practical language",
+          "position": "/nix/store/mz372xs1z8r6b3337zs0qxkg0ffrbnn3-source/pkgs/development/compilers/rust/rustc.nix:177",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "rustc"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/cagqz9xkbwj4ywjsy0g01whgsq45csvi-rustc-1.50.0",
+          "/nix/store/y548rw1467n8f3w0xq2py8al18av0mg1-rustc-1.50.0-man"
+        ],
+        "url": "github:flox/nixpkgs/f5e8bdd07d1afaabf6b37afc5497b1e498b8046f"
+      },
+      "source": {
+        "locked": {
+          "revCount": 277486,
+          "lastModified": 1616174264
+        }
+      }
+    },
+    "1.49.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/1smzj9wd084d8hnkkcg0bns7k20lqgm3-rustc-1.49.0-doc",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/9yp9j84z9av0ws4a6x1csj9c0lallbjx-rustc-1.49.0-man",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/4bicsl30ksvp1qnvcl5sggsawdf2ry1m-rustc-1.49.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.49.0",
+        "pname": "rustc",
+        "name": "rustc-1.49.0",
+        "system": "aarch64-linux",
+        "outputs": {
+          "doc": "/nix/store/1smzj9wd084d8hnkkcg0bns7k20lqgm3-rustc-1.49.0-doc",
+          "man": "/nix/store/9yp9j84z9av0ws4a6x1csj9c0lallbjx-rustc-1.49.0-man",
+          "out": "/nix/store/4bicsl30ksvp1qnvcl5sggsawdf2ry1m-rustc-1.49.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out",
+            "man"
+          ],
+          "description": "A safe, concurrent, practical language",
+          "position": "/nix/store/4r0l387miz5xgp992h64qa92i7rqb1y4-source/pkgs/development/compilers/rust/rustc.nix:177",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "rustc"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/4bicsl30ksvp1qnvcl5sggsawdf2ry1m-rustc-1.49.0",
+          "/nix/store/9yp9j84z9av0ws4a6x1csj9c0lallbjx-rustc-1.49.0-man"
+        ],
+        "url": "github:flox/nixpkgs/d92396039df6cf4c609cf1be47d0802496560e17"
+      },
+      "source": {
+        "locked": {
+          "revCount": 270083,
+          "lastModified": 1613369191
+        }
+      }
+    },
+    "1.48.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/ahmwqsgira14giam17n027w0q818690a-rustc-1.48.0-doc",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/c6rk7n2sbfdisc7kyizny4hz11sz0dbj-rustc-1.48.0-man",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/7k0ppiihw961nmh87ar6g3yxgg1r77kf-rustc-1.48.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.48.0",
+        "pname": "rustc",
+        "name": "rustc-1.48.0",
+        "system": "aarch64-linux",
+        "outputs": {
+          "doc": "/nix/store/ahmwqsgira14giam17n027w0q818690a-rustc-1.48.0-doc",
+          "man": "/nix/store/c6rk7n2sbfdisc7kyizny4hz11sz0dbj-rustc-1.48.0-man",
+          "out": "/nix/store/7k0ppiihw961nmh87ar6g3yxgg1r77kf-rustc-1.48.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out",
+            "man"
+          ],
+          "description": "A safe, concurrent, practical language",
+          "position": "/nix/store/02bj12ja21vibib3c1k065568x1d17ds-source/pkgs/development/compilers/rust/rustc.nix:177",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "aarch64-linux",
+          "rustc"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/7k0ppiihw961nmh87ar6g3yxgg1r77kf-rustc-1.48.0",
+          "/nix/store/c6rk7n2sbfdisc7kyizny4hz11sz0dbj-rustc-1.48.0-man"
+        ],
+        "url": "github:flox/nixpkgs/257cbbcd3ab7bd96f5d24d50adc807de7c82e06d"
+      },
+      "source": {
+        "locked": {
+          "revCount": 262347,
+          "lastModified": 1610219734
         }
       }
     }
