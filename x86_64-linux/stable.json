@@ -58,7 +58,7 @@
           "cacheUrl": "https://cache.nixos.org",
           "narinfo": [
             {
-              "path": "/nix/store/yblhvr9na150cq6hi1i0hyn904968yq0-clang-wrapper-11.1.0",
+              "path": "/nix/store/4pk431ywfvw0k926blzwncnp699z3vh5-clang-wrapper-11.1.0",
               "valid": true
             }
           ]
@@ -70,14 +70,14 @@
         "name": "clang-wrapper-11.1.0",
         "system": "x86_64-linux",
         "outputs": {
-          "out": "/nix/store/yblhvr9na150cq6hi1i0hyn904968yq0-clang-wrapper-11.1.0"
+          "out": "/nix/store/4pk431ywfvw0k926blzwncnp699z3vh5-clang-wrapper-11.1.0"
         },
         "meta": {
           "outputsToInstall": [
             "out"
           ],
           "description": "A C language family frontend for LLVM (wrapper script)",
-          "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/build-support/cc-wrapper/default.nix:564",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/build-support/cc-wrapper/default.nix:611",
           "unfree": false
         }
       },
@@ -89,19 +89,69 @@
         ],
         "originalUrl": "flake:nixpkgs",
         "storePaths": [
-          "/nix/store/yblhvr9na150cq6hi1i0hyn904968yq0-clang-wrapper-11.1.0"
+          "/nix/store/4pk431ywfvw0k926blzwncnp699z3vh5-clang-wrapper-11.1.0"
         ],
-        "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
       },
       "source": {
         "locked": {
-          "revCount": 466020,
-          "lastModified": 1679262748
+          "revCount": 487203,
+          "lastModified": 1684754342
         }
       }
     }
   },
   "elixir": {
+    "1.14.4": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/gqgq5rld3ax4yhspl0cnaywkg7k6cpzh-elixir-1.14.4",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.14.4",
+        "pname": "elixir",
+        "name": "elixir-1.14.4",
+        "system": "x86_64-linux",
+        "outputs": {
+          "out": "/nix/store/gqgq5rld3ax4yhspl0cnaywkg7k6cpzh-elixir-1.14.4"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "A functional, meta-programming aware language built on top of the Erlang VM",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/interpreters/elixir/1.14.nix:5",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "elixir"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/gqgq5rld3ax4yhspl0cnaywkg7k6cpzh-elixir-1.14.4"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "1.14.3": {
       "type": "catalogRender",
       "version": 1,
@@ -504,6 +554,56 @@
     }
   },
   "erlang": {
+    "25.3.2": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/wyjwkrcbhnixm4qbcfylgrjr5lpw4rac-erlang-25.3.2",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "25.3.2",
+        "pname": null,
+        "name": "erlang-25.3.2",
+        "system": "x86_64-linux",
+        "outputs": {
+          "out": "/nix/store/wyjwkrcbhnixm4qbcfylgrjr5lpw4rac-erlang-25.3.2"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Programming language used for massively scalable soft real-time systems",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/interpreters/erlang/generic-builder.nix:172",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "erlang"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/wyjwkrcbhnixm4qbcfylgrjr5lpw4rac-erlang-25.3.2"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "25.3": {
       "type": "catalogRender",
       "version": 1,
@@ -1114,15 +1214,15 @@
           "cacheUrl": "https://cache.nixos.org",
           "narinfo": [
             {
-              "path": "/nix/store/aas2ymp9mhpfnq7xhbfdv9i3ywpaldy9-gcc-wrapper-12.2.0-info",
+              "path": "/nix/store/5fcyhrhijbcq5ybqkl2ydi3rhfxdz9pf-gcc-wrapper-12.2.0-info",
               "valid": true
             },
             {
-              "path": "/nix/store/z92kyy5fvb84xxc45ghf253gzki8bdg2-gcc-wrapper-12.2.0-man",
+              "path": "/nix/store/pslv1vqa6imlpjcc618x9v2zcnnq0dpi-gcc-wrapper-12.2.0-man",
               "valid": true
             },
             {
-              "path": "/nix/store/rj91g41smpmp92xvhx6rjxz6878bn2b4-gcc-wrapper-12.2.0",
+              "path": "/nix/store/7wkshj58fcsl1f3zyi67qsxgl1p8nki1-gcc-wrapper-12.2.0",
               "valid": true
             }
           ]
@@ -1134,9 +1234,9 @@
         "name": "gcc-wrapper-12.2.0",
         "system": "x86_64-linux",
         "outputs": {
-          "info": "/nix/store/aas2ymp9mhpfnq7xhbfdv9i3ywpaldy9-gcc-wrapper-12.2.0-info",
-          "man": "/nix/store/z92kyy5fvb84xxc45ghf253gzki8bdg2-gcc-wrapper-12.2.0-man",
-          "out": "/nix/store/rj91g41smpmp92xvhx6rjxz6878bn2b4-gcc-wrapper-12.2.0"
+          "info": "/nix/store/5fcyhrhijbcq5ybqkl2ydi3rhfxdz9pf-gcc-wrapper-12.2.0-info",
+          "man": "/nix/store/pslv1vqa6imlpjcc618x9v2zcnnq0dpi-gcc-wrapper-12.2.0-man",
+          "out": "/nix/store/7wkshj58fcsl1f3zyi67qsxgl1p8nki1-gcc-wrapper-12.2.0"
         },
         "meta": {
           "outputsToInstall": [
@@ -1144,7 +1244,7 @@
             "man"
           ],
           "description": "GNU Compiler Collection, version 12.2.0 (wrapper script)",
-          "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/build-support/cc-wrapper/default.nix:564",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/build-support/cc-wrapper/default.nix:611",
           "unfree": false
         }
       },
@@ -1156,15 +1256,15 @@
         ],
         "originalUrl": "flake:nixpkgs",
         "storePaths": [
-          "/nix/store/rj91g41smpmp92xvhx6rjxz6878bn2b4-gcc-wrapper-12.2.0",
-          "/nix/store/z92kyy5fvb84xxc45ghf253gzki8bdg2-gcc-wrapper-12.2.0-man"
+          "/nix/store/7wkshj58fcsl1f3zyi67qsxgl1p8nki1-gcc-wrapper-12.2.0",
+          "/nix/store/pslv1vqa6imlpjcc618x9v2zcnnq0dpi-gcc-wrapper-12.2.0-man"
         ],
-        "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
       },
       "source": {
         "locked": {
-          "revCount": 466020,
-          "lastModified": 1679262748
+          "revCount": 487203,
+          "lastModified": 1684754342
         }
       }
     },
@@ -1364,11 +1464,11 @@
           "cacheUrl": "https://cache.nixos.org",
           "narinfo": [
             {
-              "path": "/nix/store/4vq879kpg8b3ni6awk3dphzsipkf5vdm-ghc-9.2.7-doc",
+              "path": "/nix/store/fxxs02k49ghmxxxfvv5lx4ypqa5f0hbb-ghc-9.2.7-doc",
               "valid": true
             },
             {
-              "path": "/nix/store/xqwdr3bx1k90jqy0664xl9bafjk3ikmi-ghc-9.2.7",
+              "path": "/nix/store/4wjl91hrizxghwqy18a1337gq2y9mh40-ghc-9.2.7",
               "valid": true
             }
           ]
@@ -1380,15 +1480,15 @@
         "name": "ghc-9.2.7",
         "system": "x86_64-linux",
         "outputs": {
-          "doc": "/nix/store/4vq879kpg8b3ni6awk3dphzsipkf5vdm-ghc-9.2.7-doc",
-          "out": "/nix/store/xqwdr3bx1k90jqy0664xl9bafjk3ikmi-ghc-9.2.7"
+          "doc": "/nix/store/fxxs02k49ghmxxxfvv5lx4ypqa5f0hbb-ghc-9.2.7-doc",
+          "out": "/nix/store/4wjl91hrizxghwqy18a1337gq2y9mh40-ghc-9.2.7"
         },
         "meta": {
           "outputsToInstall": [
             "out"
           ],
           "description": "The Glasgow Haskell Compiler",
-          "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/compilers/ghc/9.2.7.nix:379",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/compilers/ghc/9.2.7.nix:379",
           "unfree": false
         }
       },
@@ -1400,14 +1500,14 @@
         ],
         "originalUrl": "flake:nixpkgs",
         "storePaths": [
-          "/nix/store/xqwdr3bx1k90jqy0664xl9bafjk3ikmi-ghc-9.2.7"
+          "/nix/store/4wjl91hrizxghwqy18a1337gq2y9mh40-ghc-9.2.7"
         ],
-        "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
       },
       "source": {
         "locked": {
-          "revCount": 466020,
-          "lastModified": 1679262748
+          "revCount": 487203,
+          "lastModified": 1684754342
         }
       }
     },
@@ -1743,6 +1843,56 @@
     }
   },
   "go": {
+    "1.20.4": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/8v5zwymidmry0wd3lhj6zggskzsvqrfk-go-1.20.4",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.20.4",
+        "pname": "go",
+        "name": "go-1.20.4",
+        "system": "x86_64-linux",
+        "outputs": {
+          "out": "/nix/store/8v5zwymidmry0wd3lhj6zggskzsvqrfk-go-1.20.4"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "The Go Programming language",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/compilers/go/1.20.nix:176",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "go"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/8v5zwymidmry0wd3lhj6zggskzsvqrfk-go-1.20.4"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "1.20.2": {
       "type": "catalogRender",
       "version": 1,
@@ -2553,11 +2703,11 @@
           "cacheUrl": "https://cache.nixos.org",
           "narinfo": [
             {
-              "path": "/nix/store/snb6qhcy8i0vfpv6bizjd0p29rdh52db-openjdk-19.0.2+7-debug",
+              "path": "/nix/store/wpx93lalg9p65askqx7j7v8q8xaz27vp-openjdk-19.0.2+7-debug",
               "valid": true
             },
             {
-              "path": "/nix/store/sq3nm8h46ynvgc1rzbgxb0zf4pzzsw74-openjdk-19.0.2+7",
+              "path": "/nix/store/j11sdzavh0nxipvixmkf81i0pzr0a051-openjdk-19.0.2+7",
               "valid": true
             }
           ]
@@ -2569,15 +2719,15 @@
         "name": "openjdk-19.0.2+7",
         "system": "x86_64-linux",
         "outputs": {
-          "debug": "/nix/store/snb6qhcy8i0vfpv6bizjd0p29rdh52db-openjdk-19.0.2+7-debug",
-          "out": "/nix/store/sq3nm8h46ynvgc1rzbgxb0zf4pzzsw74-openjdk-19.0.2+7"
+          "debug": "/nix/store/wpx93lalg9p65askqx7j7v8q8xaz27vp-openjdk-19.0.2+7-debug",
+          "out": "/nix/store/j11sdzavh0nxipvixmkf81i0pzr0a051-openjdk-19.0.2+7"
         },
         "meta": {
           "outputsToInstall": [
             "out"
           ],
           "description": "The open-source Java Development Kit",
-          "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/compilers/openjdk/19.nix:19",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/compilers/openjdk/19.nix:16",
           "unfree": false
         }
       },
@@ -2589,14 +2739,14 @@
         ],
         "originalUrl": "flake:nixpkgs",
         "storePaths": [
-          "/nix/store/sq3nm8h46ynvgc1rzbgxb0zf4pzzsw74-openjdk-19.0.2+7"
+          "/nix/store/j11sdzavh0nxipvixmkf81i0pzr0a051-openjdk-19.0.2+7"
         ],
-        "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
       },
       "source": {
         "locked": {
-          "revCount": 466020,
-          "lastModified": 1679262748
+          "revCount": 487203,
+          "lastModified": 1684754342
         }
       }
     },
@@ -3005,19 +3155,19 @@
           "cacheUrl": "https://cache.nixos.org",
           "narinfo": [
             {
-              "path": "/nix/store/bi2nd8f34s04v5wxqgrq8nl6fclacqj0-llvm-11.1.0-dev",
+              "path": "/nix/store/axg65w0cs7cs9y3jwvp5r35v36kcjjnz-llvm-11.1.0-dev",
               "valid": true
             },
             {
-              "path": "/nix/store/qb4vvz2jcp60vb212f9gf5m98l98pp6h-llvm-11.1.0-lib",
+              "path": "/nix/store/ywibq8ljpy5i5y2k0rfmck7kdkxvqzda-llvm-11.1.0-lib",
               "valid": true
             },
             {
-              "path": "/nix/store/f9sh8i10a4z9x0ryirwawwsm9b2kfxja-llvm-11.1.0",
+              "path": "/nix/store/axh023wfx7ijlvl4a3rs9bw05x9k9mg7-llvm-11.1.0",
               "valid": true
             },
             {
-              "path": "/nix/store/gsf88rvgs6f0b37ljrb22hh78124gpda-llvm-11.1.0-python",
+              "path": "/nix/store/yp0drsqn1qrr73r9v3z7c6z0j0cy9ls4-llvm-11.1.0-python",
               "valid": true
             }
           ]
@@ -3029,17 +3179,17 @@
         "name": "llvm-11.1.0",
         "system": "x86_64-linux",
         "outputs": {
-          "dev": "/nix/store/bi2nd8f34s04v5wxqgrq8nl6fclacqj0-llvm-11.1.0-dev",
-          "lib": "/nix/store/qb4vvz2jcp60vb212f9gf5m98l98pp6h-llvm-11.1.0-lib",
-          "out": "/nix/store/f9sh8i10a4z9x0ryirwawwsm9b2kfxja-llvm-11.1.0",
-          "python": "/nix/store/gsf88rvgs6f0b37ljrb22hh78124gpda-llvm-11.1.0-python"
+          "dev": "/nix/store/axg65w0cs7cs9y3jwvp5r35v36kcjjnz-llvm-11.1.0-dev",
+          "lib": "/nix/store/ywibq8ljpy5i5y2k0rfmck7kdkxvqzda-llvm-11.1.0-lib",
+          "out": "/nix/store/axh023wfx7ijlvl4a3rs9bw05x9k9mg7-llvm-11.1.0",
+          "python": "/nix/store/yp0drsqn1qrr73r9v3z7c6z0j0cy9ls4-llvm-11.1.0-python"
         },
         "meta": {
           "outputsToInstall": [
             "out"
           ],
           "description": "A collection of modular and reusable compiler and toolchain technologies",
-          "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/compilers/llvm/11/llvm/default.nix:278",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/compilers/llvm/11/llvm/default.nix:309",
           "unfree": false
         }
       },
@@ -3051,14 +3201,14 @@
         ],
         "originalUrl": "flake:nixpkgs",
         "storePaths": [
-          "/nix/store/f9sh8i10a4z9x0ryirwawwsm9b2kfxja-llvm-11.1.0"
+          "/nix/store/axh023wfx7ijlvl4a3rs9bw05x9k9mg7-llvm-11.1.0"
         ],
-        "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
       },
       "source": {
         "locked": {
-          "revCount": 466020,
-          "lastModified": 1679262748
+          "revCount": 487203,
+          "lastModified": 1684754342
         }
       }
     }
@@ -3222,7 +3372,7 @@
           "cacheUrl": "https://cache.nixos.org",
           "narinfo": [
             {
-              "path": "/nix/store/0rabbdglwdq3blcs3i7nga8lhpn5nsnc-netlify-cli-12.2.4",
+              "path": "/nix/store/0jgsdlgv4fmk7gprrpz9c1z8jq9gnlq0-netlify-cli-12.2.4",
               "valid": true
             }
           ]
@@ -3234,14 +3384,14 @@
         "name": "netlify-cli-12.2.4",
         "system": "x86_64-linux",
         "outputs": {
-          "out": "/nix/store/0rabbdglwdq3blcs3i7nga8lhpn5nsnc-netlify-cli-12.2.4"
+          "out": "/nix/store/0jgsdlgv4fmk7gprrpz9c1z8jq9gnlq0-netlify-cli-12.2.4"
         },
         "meta": {
           "outputsToInstall": [
             "out"
           ],
           "description": "",
-          "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/web/netlify-cli/node-packages.nix:9866",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/netlify-cli/node-packages.nix:9866",
           "unfree": false
         }
       },
@@ -3253,19 +3403,74 @@
         ],
         "originalUrl": "flake:nixpkgs",
         "storePaths": [
-          "/nix/store/0rabbdglwdq3blcs3i7nga8lhpn5nsnc-netlify-cli-12.2.4"
+          "/nix/store/0jgsdlgv4fmk7gprrpz9c1z8jq9gnlq0-netlify-cli-12.2.4"
         ],
-        "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
       },
       "source": {
         "locked": {
-          "revCount": 466020,
-          "lastModified": 1679262748
+          "revCount": 487203,
+          "lastModified": 1684754342
         }
       }
     }
   },
   "nodejs": {
+    "18.16.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/syfxaz8ml4i259y0j9lyhvlwbyag4hsp-nodejs-18.16.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/hdwy8j1jvj2d68p449vvpf5j4mrgzldi-nodejs-18.16.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "18.16.0",
+        "pname": "nodejs",
+        "name": "nodejs-18.16.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/syfxaz8ml4i259y0j9lyhvlwbyag4hsp-nodejs-18.16.0-libv8",
+          "out": "/nix/store/hdwy8j1jvj2d68p449vvpf5j4mrgzldi-nodejs-18.16.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/nodejs/v18.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/hdwy8j1jvj2d68p449vvpf5j4mrgzldi-nodejs-18.16.0"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "18.14.2": {
       "type": "catalogRender",
       "version": 1,
@@ -6811,7 +7016,119 @@
       }
     }
   },
+  "nodejs_18": {
+    "18.16.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/syfxaz8ml4i259y0j9lyhvlwbyag4hsp-nodejs-18.16.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/hdwy8j1jvj2d68p449vvpf5j4mrgzldi-nodejs-18.16.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "18.16.0",
+        "pname": "nodejs",
+        "name": "nodejs-18.16.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/syfxaz8ml4i259y0j9lyhvlwbyag4hsp-nodejs-18.16.0-libv8",
+          "out": "/nix/store/hdwy8j1jvj2d68p449vvpf5j4mrgzldi-nodejs-18.16.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/nodejs/v18.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs_18"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/hdwy8j1jvj2d68p449vvpf5j4mrgzldi-nodejs-18.16.0"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    }
+  },
   "nodejs-18_x": {
+    "18.16.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/syfxaz8ml4i259y0j9lyhvlwbyag4hsp-nodejs-18.16.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/hdwy8j1jvj2d68p449vvpf5j4mrgzldi-nodejs-18.16.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "18.16.0",
+        "pname": "nodejs",
+        "name": "nodejs-18.16.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/syfxaz8ml4i259y0j9lyhvlwbyag4hsp-nodejs-18.16.0-libv8",
+          "out": "/nix/store/hdwy8j1jvj2d68p449vvpf5j4mrgzldi-nodejs-18.16.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/nodejs/v18.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-18_x"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/hdwy8j1jvj2d68p449vvpf5j4mrgzldi-nodejs-18.16.0"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "18.14.2": {
       "type": "catalogRender",
       "version": 1,
@@ -7640,7 +7957,119 @@
       }
     }
   },
+  "nodejs_20": {
+    "20.2.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/08wbjy8f69kv9jjxcy3xj2w4f42lfwac-nodejs-20.2.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/nnmfw7z062j9bwwi945qzac769f6yhzg-nodejs-20.2.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "20.2.0",
+        "pname": "nodejs",
+        "name": "nodejs-20.2.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/08wbjy8f69kv9jjxcy3xj2w4f42lfwac-nodejs-20.2.0-libv8",
+          "out": "/nix/store/nnmfw7z062j9bwwi945qzac769f6yhzg-nodejs-20.2.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/nodejs/v20.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs_20"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/nnmfw7z062j9bwwi945qzac769f6yhzg-nodejs-20.2.0"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    }
+  },
   "nodejs_latest": {
+    "20.2.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/08wbjy8f69kv9jjxcy3xj2w4f42lfwac-nodejs-20.2.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/nnmfw7z062j9bwwi945qzac769f6yhzg-nodejs-20.2.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "20.2.0",
+        "pname": "nodejs",
+        "name": "nodejs-20.2.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/08wbjy8f69kv9jjxcy3xj2w4f42lfwac-nodejs-20.2.0-libv8",
+          "out": "/nix/store/nnmfw7z062j9bwwi945qzac769f6yhzg-nodejs-20.2.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/nodejs/v20.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs_latest"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/nnmfw7z062j9bwwi945qzac769f6yhzg-nodejs-20.2.0"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "19.8.1": {
       "type": "catalogRender",
       "version": 1,
@@ -8708,6 +9137,61 @@
     }
   },
   "nodejs-slim": {
+    "18.16.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/lh85v53zbqh7l81p7qz1y2jvhsv0jzp5-nodejs-slim-18.16.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/gw0h27rp8ns72ajvxfjjgk54z66r8kg7-nodejs-slim-18.16.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "18.16.0",
+        "pname": "nodejs-slim",
+        "name": "nodejs-slim-18.16.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/lh85v53zbqh7l81p7qz1y2jvhsv0jzp5-nodejs-slim-18.16.0-libv8",
+          "out": "/nix/store/gw0h27rp8ns72ajvxfjjgk54z66r8kg7-nodejs-slim-18.16.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/nodejs/v18.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-slim"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/gw0h27rp8ns72ajvxfjjgk54z66r8kg7-nodejs-slim-18.16.0"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "18.14.2": {
       "type": "catalogRender",
       "version": 1,
@@ -12031,7 +12515,119 @@
       }
     }
   },
+  "nodejs-slim_18": {
+    "18.16.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/lh85v53zbqh7l81p7qz1y2jvhsv0jzp5-nodejs-slim-18.16.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/gw0h27rp8ns72ajvxfjjgk54z66r8kg7-nodejs-slim-18.16.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "18.16.0",
+        "pname": "nodejs-slim",
+        "name": "nodejs-slim-18.16.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/lh85v53zbqh7l81p7qz1y2jvhsv0jzp5-nodejs-slim-18.16.0-libv8",
+          "out": "/nix/store/gw0h27rp8ns72ajvxfjjgk54z66r8kg7-nodejs-slim-18.16.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/nodejs/v18.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-slim_18"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/gw0h27rp8ns72ajvxfjjgk54z66r8kg7-nodejs-slim-18.16.0"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    }
+  },
   "nodejs-slim-18_x": {
+    "18.16.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/lh85v53zbqh7l81p7qz1y2jvhsv0jzp5-nodejs-slim-18.16.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/gw0h27rp8ns72ajvxfjjgk54z66r8kg7-nodejs-slim-18.16.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "18.16.0",
+        "pname": "nodejs-slim",
+        "name": "nodejs-slim-18.16.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/lh85v53zbqh7l81p7qz1y2jvhsv0jzp5-nodejs-slim-18.16.0-libv8",
+          "out": "/nix/store/gw0h27rp8ns72ajvxfjjgk54z66r8kg7-nodejs-slim-18.16.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/nodejs/v18.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-slim-18_x"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/gw0h27rp8ns72ajvxfjjgk54z66r8kg7-nodejs-slim-18.16.0"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "18.14.2": {
       "type": "catalogRender",
       "version": 1,
@@ -12860,7 +13456,119 @@
       }
     }
   },
+  "nodejs-slim_20": {
+    "20.2.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/8kgam6xz64f1iw7cjqd3h2ji9d0pv2qy-nodejs-slim-20.2.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/2ys7kkikn39rd2hxx0x1jd3z3ia7dr90-nodejs-slim-20.2.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "20.2.0",
+        "pname": "nodejs-slim",
+        "name": "nodejs-slim-20.2.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/8kgam6xz64f1iw7cjqd3h2ji9d0pv2qy-nodejs-slim-20.2.0-libv8",
+          "out": "/nix/store/2ys7kkikn39rd2hxx0x1jd3z3ia7dr90-nodejs-slim-20.2.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/nodejs/v20.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-slim_20"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/2ys7kkikn39rd2hxx0x1jd3z3ia7dr90-nodejs-slim-20.2.0"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    }
+  },
   "nodejs-slim_latest": {
+    "20.2.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/8kgam6xz64f1iw7cjqd3h2ji9d0pv2qy-nodejs-slim-20.2.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/2ys7kkikn39rd2hxx0x1jd3z3ia7dr90-nodejs-slim-20.2.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "20.2.0",
+        "pname": "nodejs-slim",
+        "name": "nodejs-slim-20.2.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/8kgam6xz64f1iw7cjqd3h2ji9d0pv2qy-nodejs-slim-20.2.0-libv8",
+          "out": "/nix/store/2ys7kkikn39rd2hxx0x1jd3z3ia7dr90-nodejs-slim-20.2.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/web/nodejs/v20.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-slim_latest"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/2ys7kkikn39rd2hxx0x1jd3z3ia7dr90-nodejs-slim-20.2.0"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "19.8.1": {
       "type": "catalogRender",
       "version": 1,
@@ -14184,15 +14892,15 @@
           "cacheUrl": "https://cache.nixos.org",
           "narinfo": [
             {
-              "path": "/nix/store/3h2i9w2sbj6p25nsvjrp1b84dyyw06mj-perl-5.36.0-devdoc",
+              "path": "/nix/store/2snyrlalffh637bfyzcd3qmx62cjp21b-perl-5.36.0-devdoc",
               "valid": true
             },
             {
-              "path": "/nix/store/pzfy9pqd5cdxrkw2xx9j8xdhclakxj73-perl-5.36.0-man",
+              "path": "/nix/store/jdlf5m2gb9hr0dpx0wr05rv7yyyh71nz-perl-5.36.0-man",
               "valid": true
             },
             {
-              "path": "/nix/store/rgw6wzny8rqpri516srzvjv2gqsg1niv-perl-5.36.0",
+              "path": "/nix/store/5qg40449fx96jl4sq0mbgifdppxq4zap-perl-5.36.0",
               "valid": true
             }
           ]
@@ -14204,9 +14912,9 @@
         "name": "perl-5.36.0",
         "system": "x86_64-linux",
         "outputs": {
-          "devdoc": "/nix/store/3h2i9w2sbj6p25nsvjrp1b84dyyw06mj-perl-5.36.0-devdoc",
-          "man": "/nix/store/pzfy9pqd5cdxrkw2xx9j8xdhclakxj73-perl-5.36.0-man",
-          "out": "/nix/store/rgw6wzny8rqpri516srzvjv2gqsg1niv-perl-5.36.0"
+          "devdoc": "/nix/store/2snyrlalffh637bfyzcd3qmx62cjp21b-perl-5.36.0-devdoc",
+          "man": "/nix/store/jdlf5m2gb9hr0dpx0wr05rv7yyyh71nz-perl-5.36.0-man",
+          "out": "/nix/store/5qg40449fx96jl4sq0mbgifdppxq4zap-perl-5.36.0"
         },
         "meta": {
           "outputsToInstall": [
@@ -14214,7 +14922,7 @@
             "man"
           ],
           "description": "The standard implementation of the Perl 5 programmming language",
-          "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/interpreters/perl/default.nix:210",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/interpreters/perl/intepreter.nix:228",
           "unfree": false
         }
       },
@@ -14226,15 +14934,15 @@
         ],
         "originalUrl": "flake:nixpkgs",
         "storePaths": [
-          "/nix/store/rgw6wzny8rqpri516srzvjv2gqsg1niv-perl-5.36.0",
-          "/nix/store/pzfy9pqd5cdxrkw2xx9j8xdhclakxj73-perl-5.36.0-man"
+          "/nix/store/5qg40449fx96jl4sq0mbgifdppxq4zap-perl-5.36.0",
+          "/nix/store/jdlf5m2gb9hr0dpx0wr05rv7yyyh71nz-perl-5.36.0-man"
         ],
-        "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
       },
       "source": {
         "locked": {
-          "revCount": 466020,
-          "lastModified": 1679262748
+          "revCount": 487203,
+          "lastModified": 1684754342
         }
       }
     }
@@ -14444,6 +15152,61 @@
     }
   },
   "python3": {
+    "3.10.11": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/45m30xnc1n3sl1xpbfn646j7scbjipmp-python3-3.10.11-debug",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/95cxzy2hpizr23343b8bskl4yacf4b3l-python3-3.10.11",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "3.10.11",
+        "pname": "python3",
+        "name": "python3-3.10.11",
+        "system": "x86_64-linux",
+        "outputs": {
+          "debug": "/nix/store/45m30xnc1n3sl1xpbfn646j7scbjipmp-python3-3.10.11-debug",
+          "out": "/nix/store/95cxzy2hpizr23343b8bskl4yacf4b3l-python3-3.10.11"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "A high-level dynamically-typed programming language",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/interpreters/python/cpython/default.nix:540",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "python3"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/95cxzy2hpizr23343b8bskl4yacf4b3l-python3-3.10.11"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "3.10.10": {
       "type": "catalogRender",
       "version": 1,
@@ -15296,6 +16059,61 @@
     }
   },
   "ruby": {
+    "3.1.4": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/58dyif69bfmza5l30bmql4h2gh4jbxfp-ruby-3.1.4-devdoc",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/7fq62hlabxq8djibvjvynb85xl438vg3-ruby-3.1.4",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "3.1.4",
+        "pname": "ruby",
+        "name": "ruby-3.1.4",
+        "system": "x86_64-linux",
+        "outputs": {
+          "devdoc": "/nix/store/58dyif69bfmza5l30bmql4h2gh4jbxfp-ruby-3.1.4-devdoc",
+          "out": "/nix/store/7fq62hlabxq8djibvjvynb85xl438vg3-ruby-3.1.4"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "An object-oriented language for quick and easy programming",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/interpreters/ruby/default.nix:297",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "ruby"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/7fq62hlabxq8djibvjvynb85xl438vg3-ruby-3.1.4"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "2.7.7": {
       "type": "catalogRender",
       "version": 1,
@@ -15628,6 +16446,68 @@
     }
   },
   "rustc": {
+    "1.69.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/44yk0fpinc4pnhbvkmclnaw3mxl77wr6-rustc-1.69.0-doc",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/585qfdnxaspmhy864g4dwiq8nbn8j4hh-rustc-1.69.0-man",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/3zjg1zw1cf7hixmjmdvw244gmaxac5gk-rustc-1.69.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "1.69.0",
+        "pname": "rustc",
+        "name": "rustc-1.69.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "doc": "/nix/store/44yk0fpinc4pnhbvkmclnaw3mxl77wr6-rustc-1.69.0-doc",
+          "man": "/nix/store/585qfdnxaspmhy864g4dwiq8nbn8j4hh-rustc-1.69.0-man",
+          "out": "/nix/store/3zjg1zw1cf7hixmjmdvw244gmaxac5gk-rustc-1.69.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out",
+            "man"
+          ],
+          "description": "A safe, concurrent, practical language",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/compilers/rust/rustc.nix:232",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "rustc"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/3zjg1zw1cf7hixmjmdvw244gmaxac5gk-rustc-1.69.0",
+          "/nix/store/585qfdnxaspmhy864g4dwiq8nbn8j4hh-rustc-1.69.0-man"
+        ],
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
+      },
+      "source": {
+        "locked": {
+          "revCount": 487203,
+          "lastModified": 1684754342
+        }
+      }
+    },
     "1.67.1": {
       "type": "catalogRender",
       "version": 1,
@@ -16954,7 +17834,7 @@
           "cacheUrl": "https://cache.nixos.org",
           "narinfo": [
             {
-              "path": "/nix/store/0knh5r4zkzkm4z7rlg16g6k0bk4yg94y-yarn-1.22.19",
+              "path": "/nix/store/j3pdx0wz2y8i3yzs6fnf817lyr11wv09-yarn-1.22.19",
               "valid": true
             }
           ]
@@ -16966,14 +17846,14 @@
         "name": "yarn-1.22.19",
         "system": "x86_64-linux",
         "outputs": {
-          "out": "/nix/store/0knh5r4zkzkm4z7rlg16g6k0bk4yg94y-yarn-1.22.19"
+          "out": "/nix/store/j3pdx0wz2y8i3yzs6fnf817lyr11wv09-yarn-1.22.19"
         },
         "meta": {
           "outputsToInstall": [
             "out"
           ],
           "description": "Fast, reliable, and secure dependency management for javascript",
-          "position": "/nix/store/y34pw71w25ay4j5bm5239m8gw0pp4w63-source/pkgs/development/tools/yarn/default.nix:33",
+          "position": "/nix/store/hc2y6044ksiz4vs1cyhy6qzd6szxvm4c-source/pkgs/development/tools/yarn/default.nix:33",
           "unfree": false
         }
       },
@@ -16985,14 +17865,14 @@
         ],
         "originalUrl": "flake:nixpkgs",
         "storePaths": [
-          "/nix/store/0knh5r4zkzkm4z7rlg16g6k0bk4yg94y-yarn-1.22.19"
+          "/nix/store/j3pdx0wz2y8i3yzs6fnf817lyr11wv09-yarn-1.22.19"
         ],
-        "url": "github:flox/nixpkgs/60c1d71f2ba4c80178ec84523c2ca0801522e0a6"
+        "url": "github:flox/nixpkgs/7084250df3d7f9735087d3234407f3c1fc2400e3"
       },
       "source": {
         "locked": {
-          "revCount": 466020,
-          "lastModified": 1679262748
+          "revCount": 487203,
+          "lastModified": 1684754342
         }
       }
     }

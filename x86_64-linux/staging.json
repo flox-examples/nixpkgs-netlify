@@ -2320,7 +2320,7 @@
             "out"
           ],
           "description": "The Go Programming language",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/compilers/go/1.19.nix:175",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/compilers/go/1.19.nix:175",
           "unfree": false
         }
       },
@@ -2334,12 +2334,12 @@
         "storePaths": [
           "/nix/store/z99pbnhp88lfciv791fmi1283rv51qhz-go-1.19.2"
         ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
       },
       "source": {
         "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -3978,7 +3978,7 @@
             "out"
           ],
           "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v18.nix:11",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v18.nix:11",
           "unfree": false
         }
       },
@@ -3992,12 +3992,12 @@
         "storePaths": [
           "/nix/store/02wg7ljy43i8r2vh2nl3kpv7i4xnswrd-nodejs-18.10.0"
         ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
       },
       "source": {
         "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -5441,7 +5441,7 @@
             "out"
           ],
           "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v14.nix:11",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v14.nix:11",
           "unfree": false
         }
       },
@@ -5455,12 +5455,12 @@
         "storePaths": [
           "/nix/store/mwd1dxh5rcy0wi9vgv2brlxpr5gmngr7-nodejs-14.20.1"
         ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
       },
       "source": {
         "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -6492,7 +6492,7 @@
             "out"
           ],
           "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v16.nix:11",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v16.nix:11",
           "unfree": false
         }
       },
@@ -6506,12 +6506,12 @@
         "storePaths": [
           "/nix/store/p8w2d2wlhavc6hqafb62qn2c5zz45lil-nodejs-16.17.1"
         ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
       },
       "source": {
         "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -6997,6 +6997,61 @@
         }
       }
     },
+    "16.17.1": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/gw7qasqbwhriqb8sp58q8mw99bhp2h83-nodejs-16.17.1-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/5izjg46ddrcbs32yhvnxsmn3v8ggkdjd-nodejs-16.17.1",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "16.17.1",
+        "pname": "nodejs",
+        "name": "nodejs-16.17.1",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/gw7qasqbwhriqb8sp58q8mw99bhp2h83-nodejs-16.17.1-libv8",
+          "out": "/nix/store/5izjg46ddrcbs32yhvnxsmn3v8ggkdjd-nodejs-16.17.1"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v16.nix:11",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-16_x-openssl_1_1"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/5izjg46ddrcbs32yhvnxsmn3v8ggkdjd-nodejs-16.17.1"
+        ],
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+      },
+      "source": {
+        "locked": {
+          "revCount": 420742,
+          "lastModified": 1666703756
+        }
+      }
+    },
     "16.17.0": {
       "type": "catalogRender",
       "version": 1,
@@ -7049,61 +7104,6 @@
         "locked": {
           "revCount": 410349,
           "lastModified": 1663761423
-        }
-      }
-    },
-    "16.17.1": {
-      "type": "catalogRender",
-      "version": 1,
-      "cache": [
-        {
-          "cacheUrl": "https://cache.nixos.org",
-          "narinfo": [
-            {
-              "path": "/nix/store/gw7qasqbwhriqb8sp58q8mw99bhp2h83-nodejs-16.17.1-libv8",
-              "valid": true
-            },
-            {
-              "path": "/nix/store/5izjg46ddrcbs32yhvnxsmn3v8ggkdjd-nodejs-16.17.1",
-              "valid": true
-            }
-          ]
-        }
-      ],
-      "eval": {
-        "version": "16.17.1",
-        "pname": "nodejs",
-        "name": "nodejs-16.17.1",
-        "system": "x86_64-linux",
-        "outputs": {
-          "libv8": "/nix/store/gw7qasqbwhriqb8sp58q8mw99bhp2h83-nodejs-16.17.1-libv8",
-          "out": "/nix/store/5izjg46ddrcbs32yhvnxsmn3v8ggkdjd-nodejs-16.17.1"
-        },
-        "meta": {
-          "outputsToInstall": [
-            "out"
-          ],
-          "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v16.nix:11",
-          "unfree": false
-        }
-      },
-      "element": {
-        "attrPath": [
-          "legacyPackages",
-          "x86_64-linux",
-          "nodejs-16_x-openssl_1_1"
-        ],
-        "originalUrl": "flake:nixpkgs",
-        "storePaths": [
-          "/nix/store/5izjg46ddrcbs32yhvnxsmn3v8ggkdjd-nodejs-16.17.1"
-        ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
-      },
-      "source": {
-        "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
         }
       }
     },
@@ -7333,6 +7333,61 @@
         }
       }
     },
+    "18.15.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/60mrflih58pm47h687cqbxvb6igc9nc3-nodejs-18.15.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/njh6p007ymbmcgas5l7sqqxfmm394zx1-nodejs-18.15.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "18.15.0",
+        "pname": "nodejs",
+        "name": "nodejs-18.15.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/60mrflih58pm47h687cqbxvb6igc9nc3-nodejs-18.15.0-libv8",
+          "out": "/nix/store/njh6p007ymbmcgas5l7sqqxfmm394zx1-nodejs-18.15.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/9gyra3774fp9bdzchrvq2v4y9nia0pc3-source/pkgs/development/web/nodejs/v18.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-18_x"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/njh6p007ymbmcgas5l7sqqxfmm394zx1-nodejs-18.15.0"
+        ],
+        "url": "github:flox/nixpkgs/f00994e78cd39e6fc966f0c4103f908e63284780"
+      },
+      "source": {
+        "locked": {
+          "revCount": 474575,
+          "lastModified": 1681737997
+        }
+      }
+    },
     "18.14.2": {
       "type": "catalogRender",
       "version": 1,
@@ -7550,6 +7605,61 @@
         "locked": {
           "revCount": 449318,
           "lastModified": 1675115703
+        }
+      }
+    },
+    "18.10.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/5h4cgc2fgasacv1cgycwmn32ra9wgkdq-nodejs-18.10.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/02wg7ljy43i8r2vh2nl3kpv7i4xnswrd-nodejs-18.10.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "18.10.0",
+        "pname": "nodejs",
+        "name": "nodejs-18.10.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/5h4cgc2fgasacv1cgycwmn32ra9wgkdq-nodejs-18.10.0-libv8",
+          "out": "/nix/store/02wg7ljy43i8r2vh2nl3kpv7i4xnswrd-nodejs-18.10.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v18.nix:11",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-18_x"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/02wg7ljy43i8r2vh2nl3kpv7i4xnswrd-nodejs-18.10.0"
+        ],
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+      },
+      "source": {
+        "locked": {
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -7825,116 +7935,6 @@
         "locked": {
           "revCount": 379159,
           "lastModified": 1653060744
-        }
-      }
-    },
-    "18.15.0": {
-      "type": "catalogRender",
-      "version": 1,
-      "cache": [
-        {
-          "cacheUrl": "https://cache.nixos.org",
-          "narinfo": [
-            {
-              "path": "/nix/store/60mrflih58pm47h687cqbxvb6igc9nc3-nodejs-18.15.0-libv8",
-              "valid": true
-            },
-            {
-              "path": "/nix/store/njh6p007ymbmcgas5l7sqqxfmm394zx1-nodejs-18.15.0",
-              "valid": true
-            }
-          ]
-        }
-      ],
-      "eval": {
-        "version": "18.15.0",
-        "pname": "nodejs",
-        "name": "nodejs-18.15.0",
-        "system": "x86_64-linux",
-        "outputs": {
-          "libv8": "/nix/store/60mrflih58pm47h687cqbxvb6igc9nc3-nodejs-18.15.0-libv8",
-          "out": "/nix/store/njh6p007ymbmcgas5l7sqqxfmm394zx1-nodejs-18.15.0"
-        },
-        "meta": {
-          "outputsToInstall": [
-            "out"
-          ],
-          "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/9gyra3774fp9bdzchrvq2v4y9nia0pc3-source/pkgs/development/web/nodejs/v18.nix:12",
-          "unfree": false
-        }
-      },
-      "element": {
-        "attrPath": [
-          "legacyPackages",
-          "x86_64-linux",
-          "nodejs-18_x"
-        ],
-        "originalUrl": "flake:nixpkgs",
-        "storePaths": [
-          "/nix/store/njh6p007ymbmcgas5l7sqqxfmm394zx1-nodejs-18.15.0"
-        ],
-        "url": "github:flox/nixpkgs/f00994e78cd39e6fc966f0c4103f908e63284780"
-      },
-      "source": {
-        "locked": {
-          "revCount": 474575,
-          "lastModified": 1681737997
-        }
-      }
-    },
-    "18.10.0": {
-      "type": "catalogRender",
-      "version": 1,
-      "cache": [
-        {
-          "cacheUrl": "https://cache.nixos.org",
-          "narinfo": [
-            {
-              "path": "/nix/store/5h4cgc2fgasacv1cgycwmn32ra9wgkdq-nodejs-18.10.0-libv8",
-              "valid": true
-            },
-            {
-              "path": "/nix/store/02wg7ljy43i8r2vh2nl3kpv7i4xnswrd-nodejs-18.10.0",
-              "valid": true
-            }
-          ]
-        }
-      ],
-      "eval": {
-        "version": "18.10.0",
-        "pname": "nodejs",
-        "name": "nodejs-18.10.0",
-        "system": "x86_64-linux",
-        "outputs": {
-          "libv8": "/nix/store/5h4cgc2fgasacv1cgycwmn32ra9wgkdq-nodejs-18.10.0-libv8",
-          "out": "/nix/store/02wg7ljy43i8r2vh2nl3kpv7i4xnswrd-nodejs-18.10.0"
-        },
-        "meta": {
-          "outputsToInstall": [
-            "out"
-          ],
-          "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v18.nix:11",
-          "unfree": false
-        }
-      },
-      "element": {
-        "attrPath": [
-          "legacyPackages",
-          "x86_64-linux",
-          "nodejs-18_x"
-        ],
-        "originalUrl": "flake:nixpkgs",
-        "storePaths": [
-          "/nix/store/02wg7ljy43i8r2vh2nl3kpv7i4xnswrd-nodejs-18.10.0"
-        ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
-      },
-      "source": {
-        "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
         }
       }
     },
@@ -9463,7 +9463,7 @@
             "out"
           ],
           "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v18.nix:11",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v18.nix:11",
           "unfree": false
         }
       },
@@ -9477,12 +9477,12 @@
         "storePaths": [
           "/nix/store/02wg7ljy43i8r2vh2nl3kpv7i4xnswrd-nodejs-18.10.0"
         ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
       },
       "source": {
         "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -10585,7 +10585,7 @@
             "out"
           ],
           "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v18.nix:11",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v18.nix:11",
           "unfree": false
         }
       },
@@ -10599,12 +10599,12 @@
         "storePaths": [
           "/nix/store/cxv40wqxi2w1jd231f1536s1x1a6xda0-nodejs-slim-18.10.0"
         ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
       },
       "source": {
         "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -12048,7 +12048,7 @@
             "out"
           ],
           "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v14.nix:11",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v14.nix:11",
           "unfree": false
         }
       },
@@ -12062,12 +12062,12 @@
         "storePaths": [
           "/nix/store/q672666aya0v4ppss9989rhqbyv6a99v-nodejs-slim-14.20.1"
         ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
       },
       "source": {
         "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -13099,7 +13099,7 @@
             "out"
           ],
           "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v16.nix:11",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v16.nix:11",
           "unfree": false
         }
       },
@@ -13113,12 +13113,12 @@
         "storePaths": [
           "/nix/store/1fwjsx5xm6j3c407awlbayndbb442cp1-nodejs-slim-16.17.1"
         ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
       },
       "source": {
         "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -13718,6 +13718,61 @@
         }
       }
     },
+    "18.15.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/fcgjwgim2mshkm4qd6i3kxjyj7gl50y2-nodejs-slim-18.15.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/l0rmvql1af1yj677g8ljhgixm4v6v74s-nodejs-slim-18.15.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "18.15.0",
+        "pname": "nodejs-slim",
+        "name": "nodejs-slim-18.15.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/fcgjwgim2mshkm4qd6i3kxjyj7gl50y2-nodejs-slim-18.15.0-libv8",
+          "out": "/nix/store/l0rmvql1af1yj677g8ljhgixm4v6v74s-nodejs-slim-18.15.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/9gyra3774fp9bdzchrvq2v4y9nia0pc3-source/pkgs/development/web/nodejs/v18.nix:12",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-slim-18_x"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/l0rmvql1af1yj677g8ljhgixm4v6v74s-nodejs-slim-18.15.0"
+        ],
+        "url": "github:flox/nixpkgs/f00994e78cd39e6fc966f0c4103f908e63284780"
+      },
+      "source": {
+        "locked": {
+          "revCount": 474575,
+          "lastModified": 1681737997
+        }
+      }
+    },
     "18.14.2": {
       "type": "catalogRender",
       "version": 1,
@@ -13935,6 +13990,61 @@
         "locked": {
           "revCount": 449318,
           "lastModified": 1675115703
+        }
+      }
+    },
+    "18.10.0": {
+      "type": "catalogRender",
+      "version": 1,
+      "cache": [
+        {
+          "cacheUrl": "https://cache.nixos.org",
+          "narinfo": [
+            {
+              "path": "/nix/store/0wvr0wqkw60bm05rlqqyv7nsgcavicq0-nodejs-slim-18.10.0-libv8",
+              "valid": true
+            },
+            {
+              "path": "/nix/store/cxv40wqxi2w1jd231f1536s1x1a6xda0-nodejs-slim-18.10.0",
+              "valid": true
+            }
+          ]
+        }
+      ],
+      "eval": {
+        "version": "18.10.0",
+        "pname": "nodejs-slim",
+        "name": "nodejs-slim-18.10.0",
+        "system": "x86_64-linux",
+        "outputs": {
+          "libv8": "/nix/store/0wvr0wqkw60bm05rlqqyv7nsgcavicq0-nodejs-slim-18.10.0-libv8",
+          "out": "/nix/store/cxv40wqxi2w1jd231f1536s1x1a6xda0-nodejs-slim-18.10.0"
+        },
+        "meta": {
+          "outputsToInstall": [
+            "out"
+          ],
+          "description": "Event-driven I/O framework for the V8 JavaScript engine",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v18.nix:11",
+          "unfree": false
+        }
+      },
+      "element": {
+        "attrPath": [
+          "legacyPackages",
+          "x86_64-linux",
+          "nodejs-slim-18_x"
+        ],
+        "originalUrl": "flake:nixpkgs",
+        "storePaths": [
+          "/nix/store/cxv40wqxi2w1jd231f1536s1x1a6xda0-nodejs-slim-18.10.0"
+        ],
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
+      },
+      "source": {
+        "locked": {
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -14210,116 +14320,6 @@
         "locked": {
           "revCount": 379159,
           "lastModified": 1653060744
-        }
-      }
-    },
-    "18.15.0": {
-      "type": "catalogRender",
-      "version": 1,
-      "cache": [
-        {
-          "cacheUrl": "https://cache.nixos.org",
-          "narinfo": [
-            {
-              "path": "/nix/store/fcgjwgim2mshkm4qd6i3kxjyj7gl50y2-nodejs-slim-18.15.0-libv8",
-              "valid": true
-            },
-            {
-              "path": "/nix/store/l0rmvql1af1yj677g8ljhgixm4v6v74s-nodejs-slim-18.15.0",
-              "valid": true
-            }
-          ]
-        }
-      ],
-      "eval": {
-        "version": "18.15.0",
-        "pname": "nodejs-slim",
-        "name": "nodejs-slim-18.15.0",
-        "system": "x86_64-linux",
-        "outputs": {
-          "libv8": "/nix/store/fcgjwgim2mshkm4qd6i3kxjyj7gl50y2-nodejs-slim-18.15.0-libv8",
-          "out": "/nix/store/l0rmvql1af1yj677g8ljhgixm4v6v74s-nodejs-slim-18.15.0"
-        },
-        "meta": {
-          "outputsToInstall": [
-            "out"
-          ],
-          "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/9gyra3774fp9bdzchrvq2v4y9nia0pc3-source/pkgs/development/web/nodejs/v18.nix:12",
-          "unfree": false
-        }
-      },
-      "element": {
-        "attrPath": [
-          "legacyPackages",
-          "x86_64-linux",
-          "nodejs-slim-18_x"
-        ],
-        "originalUrl": "flake:nixpkgs",
-        "storePaths": [
-          "/nix/store/l0rmvql1af1yj677g8ljhgixm4v6v74s-nodejs-slim-18.15.0"
-        ],
-        "url": "github:flox/nixpkgs/f00994e78cd39e6fc966f0c4103f908e63284780"
-      },
-      "source": {
-        "locked": {
-          "revCount": 474575,
-          "lastModified": 1681737997
-        }
-      }
-    },
-    "18.10.0": {
-      "type": "catalogRender",
-      "version": 1,
-      "cache": [
-        {
-          "cacheUrl": "https://cache.nixos.org",
-          "narinfo": [
-            {
-              "path": "/nix/store/0wvr0wqkw60bm05rlqqyv7nsgcavicq0-nodejs-slim-18.10.0-libv8",
-              "valid": true
-            },
-            {
-              "path": "/nix/store/cxv40wqxi2w1jd231f1536s1x1a6xda0-nodejs-slim-18.10.0",
-              "valid": true
-            }
-          ]
-        }
-      ],
-      "eval": {
-        "version": "18.10.0",
-        "pname": "nodejs-slim",
-        "name": "nodejs-slim-18.10.0",
-        "system": "x86_64-linux",
-        "outputs": {
-          "libv8": "/nix/store/0wvr0wqkw60bm05rlqqyv7nsgcavicq0-nodejs-slim-18.10.0-libv8",
-          "out": "/nix/store/cxv40wqxi2w1jd231f1536s1x1a6xda0-nodejs-slim-18.10.0"
-        },
-        "meta": {
-          "outputsToInstall": [
-            "out"
-          ],
-          "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v18.nix:11",
-          "unfree": false
-        }
-      },
-      "element": {
-        "attrPath": [
-          "legacyPackages",
-          "x86_64-linux",
-          "nodejs-slim-18_x"
-        ],
-        "originalUrl": "flake:nixpkgs",
-        "storePaths": [
-          "/nix/store/cxv40wqxi2w1jd231f1536s1x1a6xda0-nodejs-slim-18.10.0"
-        ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
-      },
-      "source": {
-        "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
         }
       }
     },
@@ -15848,7 +15848,7 @@
             "out"
           ],
           "description": "Event-driven I/O framework for the V8 JavaScript engine",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/web/nodejs/v18.nix:11",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/web/nodejs/v18.nix:11",
           "unfree": false
         }
       },
@@ -15862,12 +15862,12 @@
         "storePaths": [
           "/nix/store/cxv40wqxi2w1jd231f1536s1x1a6xda0-nodejs-slim-18.10.0"
         ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
       },
       "source": {
         "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
@@ -17321,7 +17321,7 @@
             "out"
           ],
           "description": "A high-level dynamically-typed programming language",
-          "position": "/nix/store/c2la594kmk73rs39s8x9k49bmlmxshi5-source/pkgs/development/interpreters/python/cpython/default.nix:511",
+          "position": "/nix/store/9m8drnpifyl5qsx93g6ll2xw6wkps03z-source/pkgs/development/interpreters/python/cpython/default.nix:511",
           "unfree": false
         }
       },
@@ -17335,12 +17335,12 @@
         "storePaths": [
           "/nix/store/fkcl1wzq3106qqgl84bhgk1lp56q6bzg-python3-3.10.7"
         ],
-        "url": "github:flox/nixpkgs/d40fea9aeb8840fea0d377baa4b38e39b9582458"
+        "url": "github:flox/nixpkgs/f994293d1eb8812f032e8919e10a594567cf6ef7"
       },
       "source": {
         "locked": {
-          "revCount": 422531,
-          "lastModified": 1667231093
+          "revCount": 420742,
+          "lastModified": 1666703756
         }
       }
     },
