@@ -14,30 +14,30 @@
 
   # Catalogs
   inputs = {
-    #"nixpkgs__netlify__aarch64-darwin" = {
-    #  url = "github:flox-examples/nixpkgs-netlify/aarch64-darwin";
-    #  flake = false;
-    #};
+    "nixpkgs__netlify__aarch64-darwin" = {
+      url = "github:flox-examples/nixpkgs-netlify/aarch64-darwin";
+      flake = false;
+    };
 
     "nixpkgs__netlify__aarch64-linux" = {
       url = "github:flox-examples/nixpkgs-netlify/aarch64-linux";
       flake = false;
     };
 
-    #"nixpkgs__netlify__i686-linux" = {
-    #  url = "github:flox-examples/nixpkgs-netlify/i686-linux";
-    #  flake = false;
-    #};
+    "nixpkgs__netlify__i686-linux" = {
+      url = "github:flox-examples/nixpkgs-netlify/i686-linux";
+      flake = false;
+    };
 
     "nixpkgs__netlify__x86_64-linux" = {
       url = "github:flox-examples/nixpkgs-netlify/x86_64-linux";
       flake = false;
     };
 
-    #"nixpkgs__netlify__x86_64-darwin" = {
-    #  url = "github:flox-examples/nixpkgs-netlify/x86_64-darwin";
-    #  flake = false;
-    #};
+    "nixpkgs__netlify__x86_64-darwin" = {
+      url = "github:flox-examples/nixpkgs-netlify/x86_64-darwin";
+      flake = false;
+    };
   };
 
   # Capacitor inputs
@@ -64,8 +64,7 @@
       ...
     }: {
       config = {
-        #systems = ["aarch64-linux" "aarch64-darwin" "i686-linux" "x86_64-linux" "x86_64-darwin"];
-        systems = ["aarch64-linux" "x86_64-linux"];
+        systems = ["aarch64-linux" "aarch64-darwin" "i686-linux" "x86_64-linux" "x86_64-darwin"];
         extraPlugins =
           [
           ]
